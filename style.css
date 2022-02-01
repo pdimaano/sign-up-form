@@ -17,7 +17,7 @@ aside {
     justify-content: center;
     width: 400px;
     flex: 0.2 1 auto;
-    background-image: url(./images/halie-west-25xggax4bSA-unsplash.JPG);
+    background-image: url('../images/halie-west-25xggax4bSA-unsplash.JPG');
     background-size: cover;
 }
 
