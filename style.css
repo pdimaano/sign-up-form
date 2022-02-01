@@ -15,10 +15,10 @@
 aside {
     display: flex;
     justify-content: center;
-    width: 400px;
+    width: 370px;
     flex: 0.2 1 auto;
-    background-image: url('../images/leaf.png');
-    background-size: cover;
+    background-color: #618f39;
+    box-shadow: 5px 0 8px #0000004f;
 }
 
 #odinText {
@@ -34,17 +34,6 @@ aside {
     color: #ffffff;
     font-family: norsebold, sans-serif;
     font-size: 60px;
-}
-
-#credit {
-    position: absolute;
-    font-size: var(--otherFonts);
-    bottom: 0;
-    color: #ffffff;
-}
-
-#credit a {
-    text-decoration: underline;
 }
 
 img {
@@ -75,7 +64,6 @@ main {
 form {
     margin-top: 30px;
     margin-bottom: 22px;
-    padding: 20px 0px;
     width: 100%;
     max-width: 100%;
     font-size: var(--mainFontSize);
